@@ -1,5 +1,5 @@
 # henVideoCompress
-A Python script for batch video compression with optional hardware acceleration.
+A tool for batch video compression with optional hardware acceleration.
 
 ## Features
 
@@ -30,7 +30,7 @@ ffmpeg -version
 ## Usage
 
 ```bash
-python video_processor.py input_folder output_folder [--hwaccel]
+hvc input_folder output_folder [--hwaccel]
 ```
 
 - `input_folder`: Folder containing source videos
